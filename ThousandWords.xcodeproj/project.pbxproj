@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		508149D41BA78C32000A6FD8 /* AlbumStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */; };
+		508149DA1BA78EB6000A6FD8 /* AlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149D91BA78EB6000A6FD8 /* AlbumsViewController.m */; };
+		508149DD1BA79886000A6FD8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149DC1BA79886000A6FD8 /* Album.m */; };
 		F167434E1B9FCF1C007D32CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F167434D1B9FCF1C007D32CB /* main.m */; };
 		F16743511B9FCF1C007D32CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16743501B9FCF1C007D32CB /* AppDelegate.m */; };
 		F16743541B9FCF1C007D32CB /* ThousandWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16743521B9FCF1C007D32CB /* ThousandWords.xcdatamodeld */; };
-		F16743571B9FCF1C007D32CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F16743561B9FCF1C007D32CB /* ViewController.m */; };
-		F167435A1B9FCF1C007D32CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16743581B9FCF1C007D32CB /* Main.storyboard */; };
 		F167435C1B9FCF1C007D32CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F167435B1B9FCF1C007D32CB /* Images.xcassets */; };
 		F167435F1B9FCF1C007D32CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F167435D1B9FCF1C007D32CB /* LaunchScreen.xib */; };
 		F167436B1B9FCF1C007D32CB /* ThousandWordsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F167436A1B9FCF1C007D32CB /* ThousandWordsTests.m */; };
@@ -28,15 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlbumStoryboard.storyboard; sourceTree = "<group>"; };
+		508149D81BA78EB6000A6FD8 /* AlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsViewController.h; sourceTree = "<group>"; };
+		508149D91BA78EB6000A6FD8 /* AlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsViewController.m; sourceTree = "<group>"; };
+		508149DB1BA79886000A6FD8 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
+		508149DC1BA79886000A6FD8 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
 		F16743481B9FCF1C007D32CB /* ThousandWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThousandWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F167434C1B9FCF1C007D32CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F167434D1B9FCF1C007D32CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F167434F1B9FCF1C007D32CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F16743501B9FCF1C007D32CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F16743531B9FCF1C007D32CB /* ThousandWords.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThousandWords.xcdatamodel; sourceTree = "<group>"; };
-		F16743551B9FCF1C007D32CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F16743561B9FCF1C007D32CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		F16743591B9FCF1C007D32CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F167435B1B9FCF1C007D32CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F167435E1B9FCF1C007D32CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F16743641B9FCF1C007D32CB /* ThousandWordsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThousandWordsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,6 +68,10 @@
 		F167433F1B9FCF1C007D32CB = {
 			isa = PBXGroup;
 			children = (
+				508149DB1BA79886000A6FD8 /* Album.h */,
+				508149DC1BA79886000A6FD8 /* Album.m */,
+				508149D81BA78EB6000A6FD8 /* AlbumsViewController.h */,
+				508149D91BA78EB6000A6FD8 /* AlbumsViewController.m */,
 				F167434A1B9FCF1C007D32CB /* ThousandWords */,
 				F16743671B9FCF1C007D32CB /* ThousandWordsTests */,
 				F16743491B9FCF1C007D32CB /* Products */,
@@ -85,9 +92,7 @@
 			children = (
 				F167434F1B9FCF1C007D32CB /* AppDelegate.h */,
 				F16743501B9FCF1C007D32CB /* AppDelegate.m */,
-				F16743551B9FCF1C007D32CB /* ViewController.h */,
-				F16743561B9FCF1C007D32CB /* ViewController.m */,
-				F16743581B9FCF1C007D32CB /* Main.storyboard */,
+				508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */,
 				F167435B1B9FCF1C007D32CB /* Images.xcassets */,
 				F167435D1B9FCF1C007D32CB /* LaunchScreen.xib */,
 				F16743521B9FCF1C007D32CB /* ThousandWords.xcdatamodeld */,
@@ -202,9 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F167435A1B9FCF1C007D32CB /* Main.storyboard in Resources */,
 				F167435F1B9FCF1C007D32CB /* LaunchScreen.xib in Resources */,
 				F167435C1B9FCF1C007D32CB /* Images.xcassets in Resources */,
+				508149D41BA78C32000A6FD8 /* AlbumStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				508149DA1BA78EB6000A6FD8 /* AlbumsViewController.m in Sources */,
 				F16743541B9FCF1C007D32CB /* ThousandWords.xcdatamodeld in Sources */,
 				F16743511B9FCF1C007D32CB /* AppDelegate.m in Sources */,
-				F16743571B9FCF1C007D32CB /* ViewController.m in Sources */,
+				508149DD1BA79886000A6FD8 /* Album.m in Sources */,
 				F167434E1B9FCF1C007D32CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,14 +254,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F16743581B9FCF1C007D32CB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F16743591B9FCF1C007D32CB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F167435D1B9FCF1C007D32CB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -420,6 +418,7 @@
 				F16743701B9FCF1C007D32CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F16743711B9FCF1C007D32CB /* Build configuration list for PBXNativeTarget "ThousandWordsTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +427,7 @@
 				F16743731B9FCF1C007D32CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
