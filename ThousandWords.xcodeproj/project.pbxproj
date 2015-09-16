@@ -11,6 +11,9 @@
 		508149DA1BA78EB6000A6FD8 /* AlbumsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149D91BA78EB6000A6FD8 /* AlbumsViewController.m */; };
 		508149DD1BA79886000A6FD8 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149DC1BA79886000A6FD8 /* Album.m */; };
 		508149E01BA8FAD9000A6FD8 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149DF1BA8FAD9000A6FD8 /* CoreDataHelper.m */; };
+		508149E31BA907B5000A6FD8 /* PhotosCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149E21BA907B5000A6FD8 /* PhotosCollectionViewController.m */; };
+		508149E61BA90B3F000A6FD8 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 508149E51BA90B3F000A6FD8 /* PhotoCollectionViewCell.m */; };
+		508149EA1BA910DF000A6FD8 /* Astro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 508149E91BA910DF000A6FD8 /* Astro.jpg */; };
 		F167434E1B9FCF1C007D32CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F167434D1B9FCF1C007D32CB /* main.m */; };
 		F16743511B9FCF1C007D32CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F16743501B9FCF1C007D32CB /* AppDelegate.m */; };
 		F16743541B9FCF1C007D32CB /* ThousandWords.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F16743521B9FCF1C007D32CB /* ThousandWords.xcdatamodeld */; };
@@ -30,13 +33,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AlbumStoryboard.storyboard; sourceTree = "<group>"; };
+		508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = AlbumStoryboard.storyboard; path = ThousandWords/AlbumStoryboard.storyboard; sourceTree = "<group>"; };
 		508149D81BA78EB6000A6FD8 /* AlbumsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumsViewController.h; sourceTree = "<group>"; };
 		508149D91BA78EB6000A6FD8 /* AlbumsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumsViewController.m; sourceTree = "<group>"; };
 		508149DB1BA79886000A6FD8 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Album.h; sourceTree = "<group>"; };
 		508149DC1BA79886000A6FD8 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Album.m; sourceTree = "<group>"; };
-		508149DE1BA8FAD9000A6FD8 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
-		508149DF1BA8FAD9000A6FD8 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		508149DE1BA8FAD9000A6FD8 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreDataHelper.h; path = ThousandWords/CoreDataHelper.h; sourceTree = "<group>"; };
+		508149DF1BA8FAD9000A6FD8 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CoreDataHelper.m; path = ThousandWords/CoreDataHelper.m; sourceTree = "<group>"; };
+		508149E11BA907B5000A6FD8 /* PhotosCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotosCollectionViewController.h; path = ThousandWords/PhotosCollectionViewController.h; sourceTree = "<group>"; };
+		508149E21BA907B5000A6FD8 /* PhotosCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotosCollectionViewController.m; path = ThousandWords/PhotosCollectionViewController.m; sourceTree = "<group>"; };
+		508149E41BA90B3F000A6FD8 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		508149E51BA90B3F000A6FD8 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		508149E91BA910DF000A6FD8 /* Astro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Astro.jpg; sourceTree = "<group>"; };
 		F16743481B9FCF1C007D32CB /* ThousandWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThousandWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F167434C1B9FCF1C007D32CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F167434D1B9FCF1C007D32CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,6 +83,13 @@
 				508149DC1BA79886000A6FD8 /* Album.m */,
 				508149D81BA78EB6000A6FD8 /* AlbumsViewController.h */,
 				508149D91BA78EB6000A6FD8 /* AlbumsViewController.m */,
+				508149DE1BA8FAD9000A6FD8 /* CoreDataHelper.h */,
+				508149DF1BA8FAD9000A6FD8 /* CoreDataHelper.m */,
+				508149E11BA907B5000A6FD8 /* PhotosCollectionViewController.h */,
+				508149E21BA907B5000A6FD8 /* PhotosCollectionViewController.m */,
+				508149E41BA90B3F000A6FD8 /* PhotoCollectionViewCell.h */,
+				508149E51BA90B3F000A6FD8 /* PhotoCollectionViewCell.m */,
+				508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */,
 				F167434A1B9FCF1C007D32CB /* ThousandWords */,
 				F16743671B9FCF1C007D32CB /* ThousandWordsTests */,
 				F16743491B9FCF1C007D32CB /* Products */,
@@ -95,9 +110,7 @@
 			children = (
 				F167434F1B9FCF1C007D32CB /* AppDelegate.h */,
 				F16743501B9FCF1C007D32CB /* AppDelegate.m */,
-				508149D31BA78C32000A6FD8 /* AlbumStoryboard.storyboard */,
-				508149DE1BA8FAD9000A6FD8 /* CoreDataHelper.h */,
-				508149DF1BA8FAD9000A6FD8 /* CoreDataHelper.m */,
+				508149E91BA910DF000A6FD8 /* Astro.jpg */,
 				F167435B1B9FCF1C007D32CB /* Images.xcassets */,
 				F167435D1B9FCF1C007D32CB /* LaunchScreen.xib */,
 				F16743521B9FCF1C007D32CB /* ThousandWords.xcdatamodeld */,
@@ -213,6 +226,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F167435F1B9FCF1C007D32CB /* LaunchScreen.xib in Resources */,
+				508149EA1BA910DF000A6FD8 /* Astro.jpg in Resources */,
 				F167435C1B9FCF1C007D32CB /* Images.xcassets in Resources */,
 				508149D41BA78C32000A6FD8 /* AlbumStoryboard.storyboard in Resources */,
 			);
@@ -235,7 +249,9 @@
 				508149E01BA8FAD9000A6FD8 /* CoreDataHelper.m in Sources */,
 				508149DA1BA78EB6000A6FD8 /* AlbumsViewController.m in Sources */,
 				F16743541B9FCF1C007D32CB /* ThousandWords.xcdatamodeld in Sources */,
+				508149E31BA907B5000A6FD8 /* PhotosCollectionViewController.m in Sources */,
 				F16743511B9FCF1C007D32CB /* AppDelegate.m in Sources */,
+				508149E61BA90B3F000A6FD8 /* PhotoCollectionViewCell.m in Sources */,
 				508149DD1BA79886000A6FD8 /* Album.m in Sources */,
 				F167434E1B9FCF1C007D32CB /* main.m in Sources */,
 			);
