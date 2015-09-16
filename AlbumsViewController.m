@@ -8,6 +8,7 @@
 
 #import "AlbumsViewController.h"
 #import "Album.h"
+#import "CoreDataHelper.h"
 
 @interface AlbumsViewController () <UITableViewDelegate, UITableViewDataSource, UIAlertViewDelegate>
 
@@ -25,6 +26,20 @@
 
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:YES];
+
+    NSFetchRequest *fetchRequest = [NSFetchRequest fetchRequestWithEntityName:@"Album"];
+    fetchRequest.sortDescriptors = @[[NSSortDescriptor sortDescriptorWithKey:@"date" ascending:YES]];
+
+    NSError *error = nil;
+
+    NSArray *fetchedAlbums = [[CoreDataHelper managedObjectContext] executeFetchRequest:fetchRequest error:&error];
+    self.albums = [fetchedAlbums mutableCopy];
+
+    [self.tableView reloadData];
+}
+
 - (IBAction)addAlbum:(UIBarButtonItem *)sender {
 
     UIAlertView *newAlbumAlert = [[UIAlertView alloc] initWithTitle:@"Add Album"
@@ -40,12 +55,11 @@
 #pragma mark Helpers
 
 -(Album *)albumWithAlbum:(NSString *)name{
-    id delegate = [[UIApplication sharedApplication] delegate];
-    NSManagedObjectContext *context = [delegate managedObjectContext];
+
+    NSManagedObjectContext *context = [CoreDataHelper managedObjectContext];
 
     Album *album = [NSEntityDescription insertNewObjectForEntityForName:@"Album"
                                                  inManagedObjectContext:context];
-
     album.name = name;
     album.date = [NSDate date];
 
@@ -68,6 +82,8 @@
                               withRowAnimation:UITableViewRowAnimationRight];
 
 /*
+                                            **************** OR *************
+        
         Album *newAlbum = [self albumWithAlbum:alertText];
         [self.albums addObject:newAlbum];
         [self.tableView reloadData];
